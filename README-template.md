@@ -18,8 +18,8 @@ Screenshot
 
 Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Lapupeh/Recipe-page.git]
+- Live Site URL: [https://comfy-panda-ce9d2e.netlify.app/]
 
 
 Built with
