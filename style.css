@@ -65,21 +65,23 @@ h3 {
 ul{
     padding: 0;
     margin: 0;
-    list-style-type: none;
+
 }
 .time-list {
     color: var(--Stone-600);
 
 }
+.time-list li {
+    padding-left: 1rem;
+}
+
 
 ol{
     padding: 0;
     margin: 0;
-    list-style-type: none;
 }
 
-.time-list li::before {
-    content: "\2022";
+.time-list li::marker{
     font-weight: 600;
     color: var(--Rose-800);
     margin-right: 1.5rem;
@@ -87,13 +89,13 @@ ol{
 } 
 li{
     padding-bottom: 0.8rem;
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
 }
    
 .ingredients-list li {
     padding-bottom: 0.8rem;
-    display: flex;
-    align-items: flex-start; 
+    padding-left: 1rem;
+
 }
 h2 {
     font-size: 1.6rem;
@@ -106,25 +108,23 @@ h2 {
     color: var(--Stone-600);
     border-bottom: 1px  solid var(--Stone-150);
 }
-.ingredients-list li::before {
-    content: "\2022";
+.ingredients-list li::marker {
     font-weight: 600;
     color: var(--Brown-800);
-    margin-right: 1.5rem;
-    display: inline-block;
+    margin-left: 2rem;
 }
 .instructions-list li{
-    counter-increment: custom-counter;
+   
     color: var(--Stone-600);
     line-height: 1.5rem;
-
+    padding-left: 1rem;
 }
 .instructions-list {
     border-bottom: 1px  solid var(--Stone-150);
     padding-bottom: 1rem;
 }
-.instructions-list li::before{
-    content: counter(custom-counter) ".";
+.instructions-list li::marker{
+    
     font-weight: 600;
     color: var(--Brown-800);
     margin-right: 1.5rem;
@@ -154,8 +154,8 @@ td strong {
     .main-container {
         width: 100%;
         border-radius: 15px;
-        margin-bottom: 5rem;
-        margin-top: 5rem;
+        margin-bottom: 8rem;
+        margin-top: 8rem;
 
 
     }
